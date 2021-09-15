@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html class="no-js"><head>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><!--<![endif]-->
-
+  
   <meta charset="utf-8">
 
-
+  
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Kisun Lee</title>
+  <title>Kisun's Homepage</title>
 
-
-
+  
+  
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+  
   <meta name="description" content="Free HTML5 Template by FREEHTML5.CO">
 
-
+  
   <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive">
 
-
+  
   <meta name="author" content="FREEHTML5.CO">
 
-<!--
+<!-- 
 
 	//////////////////////////////////////////////////////
 
 
 
-	FREE HTML5 TEMPLATE
+	FREE HTML5 TEMPLATE 
 
 	DESIGNED & DEVELOPED by FREEHTML5.CO
 
-
+		
 
 	Website: 		http://freehtml5.co/
 
@@ -46,54 +46,54 @@
 	//////////////////////////////////////////////////////
 
 	 --><!-- Facebook and Twitter integration -->
-
+  
   <meta property="og:title" content="">
 
-
+  
   <meta property="og:image" content="">
 
-
+  
   <meta property="og:url" content="">
 
-
+  
   <meta property="og:site_name" content="">
 
-
+  
   <meta property="og:description" content="">
 
-
+  
   <meta name="twitter:title" content="">
 
-
+  
   <meta name="twitter:image" content="">
 
-
+  
   <meta name="twitter:url" content="">
 
-
+  
   <meta name="twitter:card" content="">
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+  
   <link rel="shortcut icon" href="favicon.ico">
 
 <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'> --><!-- Animate.css -->
-
+  
   <link rel="stylesheet" href="css/animate.css">
 
 <!-- Icomoon Icon Fonts-->
-
+  
   <link rel="stylesheet" href="css/icomoon.css">
 
 <!-- Bootstrap  -->
-
+  
   <link rel="stylesheet" href="css/bootstrap.css">
 
-
+  
   <link rel="stylesheet" href="css/style.css">
 
 <!-- Modernizr JS -->
-
+  
   <script src="js/modernizr-2.6.2.min.js"></script><!-- FOR IE9 below --><!--[if lt IE 9]>
 
 	<script src="js/respond.min.js"></script>
@@ -103,15 +103,15 @@
 	<header>
 		<div class="container text-center">
 			<div class="fh5co-navbar-brand">
-				<a class="fh5co-logo" href="index.html">Kisun Lee</a>
+				<a class="fh5co-logo" href="index.html">Kisun's Homepage</a>
 			</div>
 			<nav id="fh5co-main-nav" role="navigation">
 				<ul>
 					<li><a href="index.html"class="active">Home</a></li>
 					<li><a href="work.html">Teaching</a></li>
 					<li><a href="services.html" >Research</a></li>
-
-
+			
+					
 				</ul>
 			</nav>
 		</div>
@@ -123,7 +123,7 @@
 <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 <div class="fh5co-intro fh5co-table-cell">
 <h1 class="text-center">Kisun Lee</h1>
-<p>Stefen E. Warschawski Visiting Assistant Professor at <a href="http://math.ucsd.edu">University of California San Diego</a></p>
+<p>Math Ph.D student at <a href="http://math.gatech.edu">Georgia Tech</a></p>
 </div>
 </div>
 </div>
@@ -135,52 +135,31 @@
 <div class="container">
 <div class="row text-center">
 <div class="fh5co-grid-work">
-<div class="work-holder"> <img src="profile.jpg" alt="Home" height="280" width="360"> </div>
+<div class="work-holder"> <img src="profile2.jpg" alt="Home" height="280" width="360"> </div>
 <div class="desc"> </div>
 </div>
 </div>
 <hr>
 <div class="fh5co-grid-work">
-<div class="desc"> <span><dt>6422 AP&M Building</dt>
-<dt><strong><a href="kisunlee@ucsd.edu">kisunlee@ucsd.edu</a></strong>
+<div class="desc"> <span><dt>139 Skiles Building</dt>
+<dt><strong>klee669@gatech.edu</strong>
 </dt>
-<dt>Here is my <a href="Academic_CV.pdf">CV</a> as of September 2021.</dt>
+<dt>Here is my <a href="Academic_CV.pdf">CV</a> as of April 2019.</dt>
 </span>
-<span> <dt>I am a Stefen E. Warschawski Visiting Assistant Professor in Department of Mathematics at UC San Diego. My
-mentor is <a href="https://www.math.ucsd.edu/~njw/">Jiawang Nie.</a> I graduated Georgia Tech under the supervision of <a href="http://people.math.gatech.edu/%7Ealeykin3/index.html">Anton
+<span> <dt>I am a fourth year math Ph.D Student at Georgia Tech. My
+advisor is <a href="http://people.math.gatech.edu/%7Ealeykin3/index.html">Anton
 Leykin.</a> </dt>
-<dt>My current research interest is applied algebraic geometry,
-especially, numerical algebraic geometry, and convex geometry.</dt>
-<dt>Pronouns : he, him, his</dt>
-<br>
+<dt>My current research interest is Applied Algebraic Geometry,
+especially, Numerical Algebraic Geometry, and Convex Geometry!</dt>
 <hr>
-<dt><font size="+2">Upcoming Conferences and Talks</font></dt>
+<dt><font size="+2">Travel</font></dt>
 <br>
-<dt><a href="http://www.ams.org/meetings/national/national">Joint Mathematics Meeting 2022 (Seattle, Washington, USA)</a></dt>
-\
-<dt><a href="https://www.birs.ca/events/2021/5-day-workshops/21w5117">Real Polynomials: Counting and Stability (Virtual)</a></dt>
-
-<hr>
-<dt><font size="+2">Past Activities</font></dt>
-<br>
-<dt><a href="https://www.siam.org/conferences/cm/conference/ag21">2021 SIAM AG (2020, College Station, Texas, USA) (Virtual)</a></dt>
-<dt><a href="http://www.math.ucsd.edu/seminars/upcoming/pdfs/2021/2021-7166.pdf">Algebraic Geometry Seminar in University of California San Diego (2020, La Jolla,
-California, USA) (Virtual)</a></dt>
-<dt><a href="http://www.ams.org/meetings/sectional/2273_program.html">AMS Spring Southeastern Sectional Meeting in University of Virginia (2020, Charlottesville,
-Virginia, USA) (Cancelled)</a></dt>
-<dt><a href="http://qcpages.qc.cuny.edu/~aovchinnikov/seminar.html">Joint CUNY Graduate Center-Courant
-Seminar in Symbolic-Numeric Computing (2019, New York,
-New York, USA)</a></dt>
-<dt><a href="https://www.math.clemson.edu/adm-seminar/">Clemson University
-Algebra and Discrete Mathematics Seminar (2019, Clemson,
-South Carolina, USA)</a></dt>
 <dt><a href="http://www.issac-conference.org/2019/">2019 ISSAC (Beijing,
 China)</a></dt>
 <dt><a href="https://mathsites.unibe.ch/siamag19/">2019 SIAM AG (Bern,
 Switzerland)</a></dt>
 <dt><a href="https://www.mis.mpg.de/calendar/conferences/2019/ranlearn2019/participants.html">2019 Summer School on Randomness and Learning in Non-Linear Algebra (Leipzig,
 Germany)</a></dt>
-<dt><a href="http://eventos.ucm.es/12097/detail/mega-2019.html">2019 MEGA (Madrid, Spain)</a></dt>
 <dt><a href="https://sites.google.com/view/maag2019/">2019
 Meeting on Applied Algebraic Geometry (Atlanta, Georgia, USA)</a></dt>
 <dt><a href="http://www.ams.org/meetings/sectional/2261_program.html">2019
