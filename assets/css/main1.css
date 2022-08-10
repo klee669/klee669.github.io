@@ -3758,15 +3758,17 @@ input, select, textarea {
 	#main {
 		background-color: #ffffff;
 		position: relative;
+		line-height: 1.5;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
 
-	#main ul li {
-		margin-bottom: 1.5;
+	#main > .post li {
+		margin-bottom: -1rem ;
 	}
+
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
