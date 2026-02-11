@@ -43,10 +43,18 @@
     .meta{display:flex;gap:14px;flex-wrap:wrap;color:var(--gray);font-size:14px}
     .pill{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;background:var(--clemson-purple);color:var(--white)}
     .imgwrap{border-radius:var(--radius);overflow:hidden}
+/* 기본(PC): 기선님이 원래 설정하신 대로 750px 고정 */
 img {
-  width: 750px;    
-  max-width: 100%; 
-  height: auto;    
+  width: 750px; 
+  height: auto;
+}
+
+/* 모바일(화면이 800px보다 작을 때)에만 적용되는 규칙 */
+@media (max-width: 800px) {
+  img {
+    width: 100%;      /* 모바일에서는 화면 폭에 맞춤 */
+    height: auto;
+  }
 }
     section{margin:34px 0}
     section h2{font-family:"Source Serif Pro",Georgia,serif;font-size:26px;margin:0 0 12px;color:var(--clemson-orange)}
