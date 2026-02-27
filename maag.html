@@ -141,6 +141,19 @@ img {
     }
   }
   </style>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  };
+</script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
   <header>
@@ -196,9 +209,9 @@ img {
           </details>
         </li>
         <li>
-          <span class="speaker"><a class="btn" href="https://juliannebarnhart.com">Julianne Barnhart</a> </span> (Clemson University) — <em>Talk Title: TBD</em>
+          <span class="speaker"><a class="btn" href="https://juliannebarnhart.com">Julianne Barnhart</a> </span> (Clemson University) <br><em>Restricted monodromy groups and applications to sparse polynomial systems</em>
           <details><summary><b>Abstract</b></summary>
-            <p>TBD.</p>
+            <p>The monodromy group of a branched cover $\pi:X\to Y$ is a permutation group resulting from taking loops in the base space $Y$, as the lift of each loop induces a permutation of points in a fibre. We consider restricting $\pi$ to some generic subvariety $V$ of $Y$, with $X_V$ the preimage of $V$ under $\pi$. When $X_V \to V$ is a branched cover, we prove relationships between the monodromy group of the full branched cover and the monodromy group of the restricted branched cover. The existence of a transposition in the restricted monodromy group guarantees that the restricted monodromy group and the full monodromy group share a unique minimal block structure. As a consequence, we give conditions for the restricted monodromy group to be the full symmetric group. Additionally, we discuss applications of restricted monodromy groups in various settings in applied algebraic geometry including sparse polynomial systems and computer vision.</p>
           </details>
         </li>
         <li>
