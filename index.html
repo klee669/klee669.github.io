@@ -7,6 +7,22 @@
   <title>Kisun Lee</title>
   <link rel="stylesheet" href="assets/css/site.css">
 </head>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const lists = document.querySelectorAll(
+    "#research ol.research-list"
+  );
+
+  let number = [...lists].reduce(
+    (sum, list) => sum + list.querySelectorAll("li").length, 0
+  );
+
+  lists.forEach(list => {
+    list.start = number;
+    number -= list.querySelectorAll("li").length;
+  });
+});
+</script>
 <body>
   <main class="page">
     <section class="intro">
@@ -55,7 +71,7 @@
 
 										<h3>Preprints</h3>
 
-									<ol reversed start="19" class="research-list">
+									<ol reversed class="research-list">
 										<li><a href="https://arxiv.org/abs/2611.19866">Uniquely balanced polyhedral complexes are highly connected</a> <br><i>preprint.</i></li>
 										<li><a href="https://arxiv.org/abs/2605.04302">Rigid homotopies for sampling from algebraic varieties: a Waring structure complexity model</a> (with <a href="https://abigailrjones.github.io">A. R. Jones</a> &amp; <a href="https://sites.google.com/wisc.edu/jose/home">J. I. Rodriguez</a>) <br><i>preprint.</i></li>
 										<li><a href="https://arxiv.org/abs/2603.17288">Certifying Galois/monodromy actions via homotopy graphs</a> (with <a href="https://timduff35.github.io/timduff35/">T. Duff</a>) <br><i>preprint.</i> <br><a href="https://github.com/klee669/certified_homotopy_tracking">(GitHub repo)</a></li>
@@ -67,7 +83,7 @@
 
 								<div class="research-section">
 									<h3>Publications</h3>
-									<ol reversed start="15" class="research-list">
+									<ol reversed class="research-list">
 										<li><a href="https://dl.acm.org/doi/10.1145/3815436.3815444">Certified surface approximations using the interval Krawczyk test</a> (with <a href="https://cecas.clemson.edu/~burr2/">M. Burr</a> &amp; <a href="https://academicweb.nd.edu/~jhauenst/">J. D. Hauenstein</a>) <br><i>In Proceedings of the ISSAC 2026</i>. (2026) pp 77-86. <br><a href="certifiedSurfaceApprox ISSAC nobreak.pdf">(slides)</a>, <a href="https://arxiv.org/abs/2602.07718">(arxiv)</a></li>
 										<li><a href="https://dl.acm.org/doi/10.1145/3747199.3747550">Certified algebraic curve projections by path tracking</a> (with <a href="https://cecas.clemson.edu/~burr2/">M. Burr</a> &amp; <a href="https://michael-byrd.github.io">M. Byrd</a>) <br><i>In Proceedings of the ISSAC 2025</i>. (2025) pp 87-96. <br><a href="SIAM%20AG%2025%20certifiedCurveTracking.pdf">(slides)</a>, <a href="https://arxiv.org/abs/2502.05357">(arxiv)</a></li>
 										<li><a href="https://www.sciencedirect.com/science/article/pii/S0024379525001673">The tropical variety of symmetric rank 2 matrices</a> (with <a href="https://math.gatech.edu/people/may-cai">M. Cai</a> &amp; <a href="https://sites.gatech.edu/josephineyu/">J. Yu</a>) <br><i>Linear Algebra and its Applications.</i> <b>720</b> (1) (2025) pp 50-71. <br><a href="rank2SymmetricMatrices.pdf">(slides)</a>, <a href="https://icerm.brown.edu/video_archive/4073">(video)</a>, <a href="https://arxiv.org/abs/2404.08121">(arxiv)</a></li>
